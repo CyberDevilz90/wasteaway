@@ -1,17 +1,12 @@
 {
   "expo": {
-    "name": "wasteaway",
-    "slug": "wasteaway",
+    "name": "Waste Away",
+    "slug": "wasteaway-konnco-studio-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "Waste Away",
     "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
       "supportsTablet": true
     },
@@ -31,6 +26,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c892b4ee-2379-40d6-9281-312e0042da82"
+      }
+    },
+    "owner": "frcalley"
   }
 }
