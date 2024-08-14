@@ -53,7 +53,7 @@ const profile = () => {
             style={styles.alamatContainer}
           />
         </View>
-        <View style={styles.optionContainer}>
+        <TouchableOpacity onPress={() => router.replace("/jemput")} style={styles.optionContainer}>
           <Image
             style={{ width: 20, height: 22 }}
             source={require("@/assets/images/icons/locationPinOutlineWhite.png")}
@@ -63,7 +63,7 @@ const profile = () => {
             style={styles.arrowWhite}
             source={require("@/assets/images/icons/arrowBlack.png")}
           />
-        </View>
+        </TouchableOpacity>
         <Text
           style={{
             fontFamily: "Poppins_SemiBold",
