@@ -1,0 +1,38 @@
+[
+    {
+      "id": 4,
+      "jam": "07.00",
+      "tanggal": "Kamis, 30 Juni 2024",
+      "status": "Belum Diambil",
+      "nama": "Arya",
+      "alamat":
+        "Ruko, Pd. Permai Taman Tirta 2 No.18, Ngentak, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184"
+    },
+    {
+      "id": 3,
+      "jam": "07.00",
+      "tanggal": "Kamis, 30 Juni 2024",
+      "status": "Menuju Lokasi",
+      "nama": "Arya",
+      "alamat":
+        "Ruko, Pd. Permai Taman Tirta 2 No.18, Ngentak, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184"
+    },
+    {
+      "id": 2,
+      "jam": "07.00",
+      "tanggal": "Kamis, 30 Juni 2024",
+      "status": "Sudah Diambil",
+      "nama": "Arya",
+      "alamat":
+        "Ruko, Pd. Permai Taman Tirta 2 No.18, Ngentak, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184"
+    },
+    {
+      "id": 1,
+      "jam": "07.00",
+      "tanggal": "Kamis, 30 Juni 2024",
+      "status": "Sudah Diambil",
+      "nama": "Arya",
+      "alamat":
+        "Ruko, Pd. Permai Taman Tirta 2 No.18, Ngentak, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184"
+    }
+  ]
