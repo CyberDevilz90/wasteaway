@@ -13,19 +13,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.frcalley.wasteaway"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/splash.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.frcalley.wasteaway"
     },
     "web": {
       "favicon": "./assets/images/splash.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9bf3e892-a4d4-431f-a81c-a9fb8fdf2642"
+      }
+    }
   }
 }
