@@ -1,10 +1,16 @@
-import { StyleSheet, Text, View, Image, TextInput } from "react-native";
+import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity } from "react-native";
 import React from "react";
-import { Link } from "expo-router";
+import { Link, useRouter } from "expo-router";
 import { useAuth } from "../context/authContext";
 
 const profile = () => {
-  const { authState } = useAuth();
+  const { authState, logout  } = useAuth();
+  const router = useRouter()
+
+  const handleLogout = () => {
+    logout()
+    router.replace("/auth/entry")
+  }
   return (
     <View>
       <View style={styles.headerContainer}>
@@ -15,13 +21,13 @@ const profile = () => {
               style={styles.backButton}
             />
           </Link>
-          <View style={styles.logoutContainer}>
+          <TouchableOpacity onPress={handleLogout} style={styles.logoutContainer}>
             <Image
               style={styles.logoutButton}
               source={require("@/assets/images/icons/logout.png")}
             />
             <Text style={styles.logoutText}>Logout</Text>
-          </View>
+          </TouchableOpacity>
         </View>
         <Text style={styles.headerText}>Profile</Text>
       </View>
